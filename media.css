@@ -1,0 +1,19 @@
+@media (max-width:768px)
+{
+    .nav .navbar ul{
+        display: none;
+    }
+    .nav-menu button{
+        display: none;
+    }
+    button i{
+        color: black;
+    }
+    .nav{
+        background-color: transparent;
+    }
+    .nav-menu .container-fluid{
+        display: flex;
+        justify-content: end;
+    }
+}

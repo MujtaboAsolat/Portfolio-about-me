@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+}
+.top {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+}
+.travira-air {
+  margin-top: 48px;
+}
+.text {
+  margin-top: 94px;
+}
+#text {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 21px;
+  color: #333333;
+  padding-left: 42px;
+}
+.home {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 21px;
+  color: #333333;
+}
+#text:hover {
+  color: #2f80ed;
+}
+.home:hover {
+  color: #2f80ed;
+}
+.contact {
+  margin-top: 94px;
+}
+#contact {
+  font-weight: 700;
+  font-size: 21px;
+  color: #0e1035;
+  padding: 10px 20px;
+  border: 1px solid #0e1035;
+  text-decoration: none;
+}
+#contact:hover {
+  background-color: #0e1035;
+  color: white;
+}
+.world {
+  background-image: url(./images/helicopter.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 800px;
+  width: 100%;
+  height: 110vh;
+}
+
+.left h1 {
+  padding-top: 125px;
+  margin-left: 122px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+  color: #0e1035;
+}
+.left span {
+  color: #2f80ed;
+}
+.left p {
+  padding-top: 20px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #676767;
+  padding-left: 122px;
+  margin-bottom: 90px;
+}
+.left a {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 32px;
+  margin-left: 122px;
+  padding: 32px 68px;
+  color: white;
+  background-color: #0e1035;
+  text-decoration: none;
+  border-radius: 31px;
+}
+#book:hover {
+  background-color: black;
+}
+.companies {
+  background-color: #0e1035;
+}
+#companies {
+  text-align: center;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 25.2352px;
+  padding-top: 107px;
+}
+.companies span {
+  color: #2f80ed;
+}
+#surat {
+  width: 82%;
+  margin: 75px 122px 0px 120px;
+}
+.fl {
+  display: flex;
+  margin-top: 151px;
+  margin-left: 120px;
+  flex-wrap: wrap;
+}
+.fl img {
+  width: 488px;
+  height: 453px;
+  margin-bottom: 171px;
+}
+.txt {
+  margin-left: 143px;
+}
+.fl h1 {
+  color: white;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 60px;
+}
+.fl span {
+  color: #2f80ed;
+}
+.fl p {
+  margin-top: 32px;
+  color: #bdbbbb;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+.fl h6 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration-line: underline;
+  color: #ffffff;
+  padding-top: 20px;
+}
+.fl .span {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  margin-left: 400px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+.h6 {
+  margin-top: 24px;
+}
+.safety {
+  margin-left: 63px;
+  margin-top: 122px;
+  display: flex;
+}
+.chap h1 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 60px;
+  color: #0e1035;
+}
+.chap p {
+  padding-top: 32px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #676767;
+  margin-bottom: 30px;
+}
+.chap h6 {
+  padding-top: 10px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration-line: underline;
+  color: #0e1035;
+}
+.chap span {
+  padding-left: 448px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration-line: underline;
+  color: #0e1035;
+}
+.rost {
+  margin-left: 114px;
+}
+.rost img {
+  width: 488px;
+  height: 453px;
+}
+.fle {
+  margin-top: 151px;
+  text-align: center;
+  color: #0e1035;
+  font-weight: 700;
+  font-family: "Inter";
+  font-size: 64px;
+}
+.air {
+  color: #676767;
+  font-family: "Inter";
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+}
+.frame {
+  margin-top: 103px;
+  width: 100%;
+}
+.left-con {
+  background: rgb(249, 249, 249);
+  width: 37%;
+  height: 40vh;
+  border-radius: 50px;
+}
+.image-ade {
+  position: relative;
+  right: 50px;
+  bottom: 50px;
+}
+.down-ade p {
+  width: 300px;
+}
+.down-ade {
+  margin-left: 50px;
+}
+.down-ade i {
+  padding-left: 5px;
+}
+.text-ade {
+  margin-top: 50px;
+  margin-right: 310px;
+}
+.top-ade {
+  display: flex;
+}
+.erfan {
+  width: 140px;
+  height: 42px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #232323;
+  margin-top: 30px;
+}
+.ade {
+  width: 120px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #232323;
+}
+.right-con {
+  background: rgba(255, 255, 255, 1);
+  width: 35%;
+  height: 40vh;
+  border-radius: 50px;
+}
+.image-erfan {
+  position: relative;
+  right: 50px;
+  bottom: 30px;
+
+}
+.down-erfan p {
+  width: 250px;
+  color: #9C9C9C;
+}
+.down-erfan {
+  margin-left: 50px;
+}
+.down-erfan i {
+  padding-left: 5px;
+}
+.text-erfan {
+  margin-right: 310px;
+}
+.top-erfan {
+  display: flex;
+}
+.con {
+  display: flex;
+  margin-left: 50px;
+}
+.samolyot {
+  margin-top: 180px;
+  height: 170vh;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-image: url(./images/samolyot.png);
+}
+.samolyot h1 {
+  margin-left: 63px;
+  padding-top: 80px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 60px;
+  color: #232323;
+}
+.samolyot img {
+  margin-left: 63px;
+  padding-top: 66px;
+  width: 70%;
+}
+.rectangle {
+  border-radius: 84px;
+  margin: 0px 63px;
+  height: 422px;
+  background-color: #0e1035;
+  text-align: right;
+  display: flex;
+  width: 90%;
+  position: relative;
+  bottom: 400px;
+}
+.rectangle h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 46.2645px;
+  line-height: 120%;
+  color: white;
+  padding-top: 155px;
+  text-align: left;
+  width: 500px;
+  margin-left: 50px;
+}
+.a {
+  margin-top: 195px;
+  margin-left: 414px;
+}
+#a {
+  padding: 32px 68px;
+  background-color: white;
+  border-radius: 32px;
+  font-family: "Inter";
+  color: #0e1035;
+  font-weight: 700;
+  font-size: 32px;
+  text-decoration: none;
+}
+#a:hover {
+  background-color: black;
+  color: white;
+}
+.footer {
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer h1 {
+  color: #0e1035;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 34px;
+}
+.footer p {
+  padding-bottom: 17px;
+  color: #0e1035;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+}
+.sm {
+  display: flex;
+}
+.sm img {
+  width: 600px;
+  height: 503px;
+}

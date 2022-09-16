@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.nav {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.left-nav img {
+    width: 50px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100px;
+    margin-left: 30px;
+}
+
+.right-nav {
+    display: flex;
+    width: 35%;
+    justify-content: space-evenly;
+}
+
+.right-nav h4 {
+    margin-top: 15px;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.CONTACT h5 {
+    color: black;
+    background-color: white;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 40px;
+}
+
+.person img {
+    width: 30%;
+    position: absolute;
+    right: 150px;
+    bottom: 5px;
+}
+
+.black-img img {
+    width: 650px;
+    height: 91.7vh;
+}
+
+.img-bg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-img-bg {
+    width: 40%;
+    height: 380px;
+    margin-top: 170px;
+    margin-left: 150px;
+}
+
+.left-img-bg h1,
+h2,
+h4 {
+    font-family: 'Raleway';
+}
+
+.left-img-bg h2 {
+    font-size: 40px;
+}
+
+.left-img-bg h1 {
+    margin-top: 54px;
+    font-size: 80px;
+}
+
+.left-img-bg h4 {
+    font-size: 25px;
+    color: #919191;
+}
+
+.icons {
+    display: flex;
+    margin-top: 100px;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.icon1 button {
+    width: 35px;
+    height: 35px;
+    background: #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.icon1 i {
+    font-size: 20px;
+}
+
+
+
+.icon2 button {
+    width: 35px;
+    height: 35px;
+    background: #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.icon2 i {
+    font-size: 20px;
+}
+
+
+
+.icon3 button {
+    width: 35px;
+    height: 35px;
+    background: #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.icon3 i {
+    font-size: 20px;
+}
+
+.button-text {
+    height: 50vh;
+    margin-top: -5px;
+    background-color: rgba(29, 29, 29, 1);
+    display: flex;
+}
+
+.left-button {
+    width: 70%;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.button-text h1,
+p,
+h3 {
+    color: white;
+}
+
+.button-text h1 {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.button-text p {
+    padding-top: 35px;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button-text h3 {
+    font-size: 15px;
+    font-family: monospace;
+    padding-top: 35px;
+}
+
+.rectangle35 {
+    width: 200px;
+    border: 1px solid blue;
+}
+
+.rectangle35 img {
+    width: 100%;
+}
+
+.about-me-text {
+    border: solid 5px black;
+    padding: 15px;
+    width: 250px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.about-me-text h3 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.about-me-p p {
+    margin: auto;
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin-top: 100px;
+}
+
+.explore h3 {
+    color: black;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.imgseparatorBlack {
+    margin: auto;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.imgseparatorBlack img {
+    width: 100%;
+}
+
+.choice1 {
+    width: 35%;
+    margin: auto;
+}
+
+.choice1 h3 {
+    color: black;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.design-img {
+    display: flex;
+}
+
+.choice1 p {
+    margin-left: 25px;
+    margin-top: 20px;
+    color: black;
+}
+
+
+
+
+.choice2 {
+    width: 35%;
+    margin: auto;
+}
+
+.design-img img {
+    position: absolute;
+}
+
+.choice2 h3 {
+    color: black;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.choice2 p {
+    margin-left: 25px;
+    margin-top: 20px;
+    color: black;
+}
+
+
+.choice3 {
+    width: 35%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.choice3 h3 {
+    color: black;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.choice3 p {
+    margin-left: 25px;
+    margin-top: 20px;
+    color: black;
+}
+
+
+.choice1-and-choice2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.imgseparatorBlack2 {
+    margin: auto;
+    width: 200px;
+    margin-top: 100px;
+}
+
+.imgseparatorBlack2 img {
+    width: 100%;
+}
+
+
+
+
+
+.Skills {
+    border: solid 5px black;
+    padding: 15px;
+    width: 250px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.Skills h3 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.down-middle {
+    width: 50%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.down-middle h3 {
+    font-size: 30px;
+    color: black;
+    width: 250px;
+}
+
+.icons-html {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.icons-html img {
+    width: 60px;
+}
+
+.icons-react {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.icons-react img {
+    width: 60px;
+}
+
+.LEARNING h3 {
+    margin-top: 50px;
+}
+
+.icons-learning img {
+    width: 60px;
+}
+
+.icons-learning {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.other-skills h3 {
+    margin-top: 60px;
+}
+
+.icons-other-skills img {
+    width: 60px;
+}
+
+.icons-other-skills {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio {
+    border: solid 5px black;
+    padding: 10px;
+    width: 250px;
+    position: absolute;
+    text-align: center;
+    left: 40%;
+    margin-top: 6%;
+}
+
+.down-portfolio {
+    background-color: rgb(35, 35, 35);
+    background-size: 100%;
+}
+.img-portfolio img{
+    width: 100%;
+}
+.down-portfolio h3 {
+    font-size: 30px;
+    color: black;
+}
+.down-portfolio hr {
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    color: gainsboro;
+}
+.text-hr {
+    display: flex;
+    margin: auto;
+    width: 35%;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.text-hr p {
+    color: gainsboro;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+.images-portfolio {
+    margin-top: 30px;
+}
+
+.three-first-images,
+.three-secound-images {
+    display: flex;
+}
+
+.three-first-images img,
+.three-secound-images img {
+    width: 100%;
+}
+
+.down-portfolio-and
+{
+    background-color: black;
+    height: 10vh;
+}
+.down-portfolio-and p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+a p:hover{
+    text-decoration: dashed;
+    color: #919191;
+}
+a h4:hover{
+    color: chocolate;
+}
+a h5:hover{
+    color: blue;
+}

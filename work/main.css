@@ -1,0 +1,480 @@
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "box1" "box2" "box3" "box4" "box5" "box6";
+}
+
+.box1 {
+  grid-area: "box1";
+  box-sizing: border-box;
+  background-color: white;
+  padding: 40px 80px 0px;
+}
+.box1 .home {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box1 .home img {
+  width: 80px;
+}
+.box1 .home .s1 {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  padding-left: 200px;
+  margin: 10px;
+  position: relative;
+  top: 20px;
+}
+.box1 .home .s1:hover {
+  color: black;
+  font-size: 1.1em;
+}
+.box1 .home .s2:hover {
+  color: blue;
+  font-size: 1.1em;
+}
+.box1 .home .s2 {
+  position: relative;
+  top: 20px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 10px;
+}
+.box1 .home .us {
+  box-sizing: border-box;
+  margin-left: 300px;
+  position: relative;
+  top: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  border: 2px gray solid;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+.box1 .home .us:hover {
+  background-color: red;
+  color: white;
+}
+.box1 .world {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.box1 .world .left {
+  height: 60vh;
+  width: 50%;
+  position: relative;
+  top: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box1 .world .left h1 {
+  font-size: 4em;
+}
+.box1 .world .left span {
+  color: blue;
+}
+.box1 .world .left p {
+  color: rgb(95, 95, 95);
+  font-weight: 500;
+  font-size: 20px;
+  width: 90%;
+}
+.box1 .world .left a {
+  color: white;
+  background-color: rgb(0, 0, 65);
+  padding: 16px 26px;
+  font-size: 1.3em;
+  font-weight: 700;
+  border-radius: 14px;
+}
+.box1 .world .left a:hover {
+  background-color: wheat;
+  color: rgb(0, 0, 65);
+}
+.box1 .world .right {
+  position: relative;
+  top: -100px;
+  box-sizing: border-box;
+  width: 50%;
+  background-image: url(./img/a7.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 58.5%;
+  background-size: 60% 50%;
+}
+.box1 .world .right img {
+  width: 97%;
+  transform: rotate(22deg);
+}
+
+.box2 {
+  background-color: #0E1035;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 40px;
+}
+.box2 .h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+.box2 .h1 span {
+  color: blue;
+}
+.box2 .chevron {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.box2 .chevron .img1 {
+  width: 50%;
+  margin-left: 30%;
+}
+.box2 .ourservice {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box2 .ourservice img {
+  width: 100%;
+}
+.box2 .ourservice .left {
+  width: 40%;
+  margin-left: 10%;
+  margin-right: 30px;
+}
+.box2 .ourservice .left img {
+  width: 90%;
+}
+.box2 .ourservice .right {
+  width: 40%;
+}
+.box2 .ourservice .right h1 {
+  font-size: 3.2em;
+  color: white;
+}
+.box2 .ourservice .right h1 span {
+  color: blue;
+}
+.box2 .ourservice p {
+  color: rgb(194, 194, 194);
+  font-size: 1.2em;
+  width: 90%;
+  line-height: 30px;
+}
+.box2 .ourservice a {
+  color: white;
+  font-weight: 500;
+  font-size: 1em;
+  border-bottom: 2px solid white;
+  line-height: 30px;
+}
+.box2 .ourservice a:hover {
+  color: red;
+  border-color: brown;
+}
+.box2 .ourservice .a1 {
+  margin-left: 71px;
+}
+.box2 .ourservice .a2 {
+  margin-left: 130px;
+}
+.box2 .ourservice .a3 {
+  margin-left: 75px;
+}
+
+.box3 {
+  padding: 50px 100px;
+}
+.box3 .safety {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box3 .safety img {
+  width: 100%;
+}
+.box3 .safety .right {
+  width: 48%;
+  margin-left: 40px;
+}
+.box3 .safety .right img {
+  width: 90%;
+}
+.box3 .safety .left {
+  width: 45%;
+  margin-left: 35px;
+}
+.box3 .safety .left h1 {
+  font-size: 3.2em;
+  color: black;
+  font-weight: 700;
+}
+.box3 .safety p {
+  color: lightslategray;
+  font-size: 1.3em;
+  width: 100%;
+  line-height: 30px;
+}
+.box3 .safety a {
+  color: black;
+  font-weight: 800;
+  font-size: 14px;
+  border-bottom: 2px solid black;
+}
+.box3 .safety a:hover {
+  color: blue;
+  border-color: rgb(255, 0, 0);
+}
+.box3 .safety .a1 {
+  margin-left: 71px;
+}
+.box3 .safety .a2 {
+  margin-left: 50px;
+}
+.box3 .safety .a3 {
+  margin-left: 68px;
+}
+
+.box4 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box4 .h1 {
+  text-align: center;
+  font-size: 3em;
+}
+.box4 .p {
+  font-size: 1.32em;
+  width: 600px;
+  line-height: 30px;
+  margin-left: 30%;
+  text-align: center;
+}
+.box4 .df {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.box4 img {
+  width: 80%;
+  margin-left: 10%;
+}
+.box4 .left {
+  width: 45%;
+}
+.box4 .left .a6 {
+  position: relative;
+  top: -300px;
+  width: 70%;
+}
+.box4 .left h1 {
+  background-color: white;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: relative;
+  top: -280px;
+}
+.box4 .right {
+  width: 45%;
+}
+.box4 .right .a6 {
+  position: relative;
+  top: -250px;
+}
+.box4 .right h1 {
+  background-color: white;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: relative;
+  top: -200px;
+}
+
+.box5 {
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  height: 110vh;
+  position: relative;
+  top: -200px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: right;
+}
+.box5 h1 {
+  font-size: 3.5em;
+  width: 71%;
+  line-height: 70px;
+}
+.box5 .left {
+  width: 55%;
+}
+.box5 .left .coment {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  box-shadow: 1px 1px 10px 3px gray;
+  border-radius: 10px;
+  margin: 15px;
+}
+.box5 .left .coment .le {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+.box5 .left .coment .le i {
+  margin: 5px;
+  line-height: 35px;
+}
+.box5 .left .coment .le .p1 {
+  line-height: 25px;
+}
+.box5 .left .coment .le .lef {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 20%;
+}
+.box5 .left .coment .le .lef img {
+  width: 100%;
+}
+.box5 .left .coment .le .rig {
+  width: 49%;
+}
+.box5 .left .coment .le .rig h3 {
+  font-size: 1em;
+  margin-top: 15px;
+  line-height: 30px;
+}
+.box5 .left .coment .le .rig p {
+  font-size: 14px;
+}
+.box5 .left .coment .ri {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+.box5 .left .coment .ri i {
+  margin: 5px;
+  line-height: 35px;
+}
+.box5 .left .coment .ri .p1 {
+  line-height: 25px;
+}
+.box5 .left .coment .ri .lef {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 20%;
+}
+.box5 .left .coment .ri .lef img {
+  width: 100%;
+}
+.box5 .left .coment .ri .rig {
+  width: 49%;
+}
+.box5 .left .coment .ri .rig h3 {
+  font-size: 1em;
+  margin-top: 15px;
+  line-height: 30px;
+}
+.box5 .left .coment .ri .rig p {
+  font-size: 14px;
+}
+.box5 .right {
+  width: 40%;
+  background-image: url(./img/a8.jpg);
+}
+
+.contactus {
+  background-color: #0E1035;
+  display: flex;
+  height: 35vh;
+  border-radius: 12px;
+  width: 70%;
+  padding: 0px 50px;
+  margin: auto;
+  flex-wrap: wrap;
+  position: relative;
+  top: -300px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.contactus h1 {
+  color: white;
+  font-size: 2.3em;
+  width: 30%;
+  line-height: 50px;
+}
+.contactus a {
+  color: #0E1035;
+  background-color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: 20px 40px;
+  border-radius: 22px;
+}
+.contactus a:hover {
+  color: white;
+  background-color: lightskyblue;
+}
+
+.box6 {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: -100px;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box6 h4 {
+  font-size: 1.32em;
+}
+.box6 a {
+  color: black;
+  line-height: 30px;
+  font-weight: 400;
+}
+.box6 a:hover {
+  color: lightgreen;
+}
+.box6 .c1 {
+  width: 24%;
+  display: flex;
+  justify-content: center;
+}
+.box6 .c1 img {
+  width: 50%;
+}
+.box6 .c2 {
+  width: 24%;
+}
+.box6 .c3 {
+  width: 24%;
+}
+.box6 .c4 {
+  width: 24%;
+}/*# sourceMappingURL=main.css.map */
